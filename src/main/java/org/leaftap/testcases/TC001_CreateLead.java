@@ -28,6 +28,7 @@ public class TC001_CreateLead extends ProjectSpecificMethod {
 		.enterLastName(lName)
 		.clickCreateLeadSubmit()
 		.verifyLead(fName);
+		
 	}
 	
 }
