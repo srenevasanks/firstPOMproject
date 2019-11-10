@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49805" started-at="2019-11-09T14:18:49 IST" finished-at="2019-11-09T14:19:39 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="49805" started-at="2019-11-09T14:18:49 IST" finished-at="2019-11-09T14:19:39 IST">
+      <class name="org.leaftap.testcases.TC001_CreateLead">
+        <test-method status="PASS" signature="setData()[pri:0, instance:org.leaftap.testcases.TC001_CreateLead@7f13d6e]" name="setData" is-config="true" duration-ms="13" started-at="2019-11-09T14:18:49 IST" finished-at="2019-11-09T14:18:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.leaftap.testcases.TC001_CreateLead@7f13d6e]" name="login" is-config="true" duration-ms="8807" started-at="2019-11-09T14:18:51 IST" finished-at="2019-11-09T14:19:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="CreateLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.leaftap.testcases.TC001_CreateLead@7f13d6e]" name="CreateLead" duration-ms="17106" started-at="2019-11-09T14:19:00 IST" data-provider="fetchdata" finished-at="2019-11-09T14:19:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TESTING]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SRENE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[VASAN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateLead -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.leaftap.testcases.TC001_CreateLead@7f13d6e]" name="closeBrowser" is-config="true" duration-ms="137" started-at="2019-11-09T14:19:17 IST" finished-at="2019-11-09T14:19:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:org.leaftap.testcases.TC001_CreateLead@7f13d6e]" name="login" is-config="true" duration-ms="4512" started-at="2019-11-09T14:19:17 IST" finished-at="2019-11-09T14:19:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/control/main]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="CreateLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.leaftap.testcases.TC001_CreateLead@7f13d6e]" name="CreateLead" duration-ms="15710" started-at="2019-11-09T14:19:21 IST" data-provider="fetchdata" finished-at="2019-11-09T14:19:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TESTING]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[srenevasan]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateLead -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.leaftap.testcases.TC001_CreateLead@7f13d6e]" name="closeBrowser" is-config="true" duration-ms="2110" started-at="2019-11-09T14:19:37 IST" finished-at="2019-11-09T14:19:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.leaftap.testcases.TC001_CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
